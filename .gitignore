@@ -1,0 +1,5 @@
+model.pt
+wrime-ver1.tsv
+.venv
+__pycache__/
+test_trainer/
