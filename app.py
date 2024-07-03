@@ -39,5 +39,8 @@ def sentiment_analysis(text: str) -> dict:
 
 @app.get("/")
 def result(text: str):
-    text_list = text.split(",")
-    return {"responce": [{"text": t, "emotion_score": sentiment_analysis(t)} for t in text_list if len(t) > 0]}
+    try:
+        text_list = text.split(",")
+        return {"responce": [{"text": t, "emotion_score": sentiment_analysis(t)} for t in text_list if len(t) > 0]}
+    except Exception:
+        return {"responce": {"status": "error", "message": "クエリが不正です。入力例を参照してください。"}}
