@@ -13,12 +13,12 @@ text属性に、分析したいテキストをカンマ区切りで入力しま�
 
 #### エンドポイント
 ```
-http://shiratori.cdl.im.dendai.ac.jp/emotional_analysis_api:50000/
+http://shiratori.cdl.im.dendai.ac.jp:50000/
 ```
   
 #### リクエスト例
 ```
-http://shiratori.cdl.im.dendai.ac.jp/emotional_analysis_api:50000/?text=曲は素晴らしい、何回も...,Androidにくらべると画面は大きくなりましたが、文字は...
+http://shiratori.cdl.im.dendai.ac.jp:50000/?text=曲は素晴らしい、何回も...,Androidにくらべると画面は大きくなりましたが、文字は...
 ```
 
 
