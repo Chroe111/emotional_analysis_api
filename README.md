@@ -1,6 +1,6 @@
 # 知的処理及び演習_感情分析API
 
-[WRIMEデータセット](https://github.com/ids-cv/wrime)を学習した、正解率70%くらいのBERTモデルをAPIから利用できます。  
+[WRIMEデータセット](https://github.com/ids-cv/wrime)を学習した、正解率70%程度のBERTモデルをAPIから利用できます。  
 感情ラベルは以下の通りで、総和が1に正規化された感情値を返します。
 |Joy|Sadness|Anticipation|Surprise|Anger|Fear|Disgust|Trust|
 |----|----|----|----|----|----|----|----|
