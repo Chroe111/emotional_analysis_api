@@ -58,7 +58,9 @@ http://shiratori.cdl.im.dendai.ac.jp:50000/?text=曲は素晴らしい、何回�
 ```
 
 ## 注意事項
-授業内でのみ利用するようお願いします。
+授業内でのみ利用するようお願いします。  
+何か不具合等があれば以下のアドレスまでご連絡ください。  
+24fmi15(アットマーク)ms.dendai.ac.jp
 
 ## 参考文献
 [Hugging Face + WRIMEデータセットで、8クラスの感情分類](https://qiita.com/izaki_shin/items/2b4573ee7fbea5ec8ed6)
