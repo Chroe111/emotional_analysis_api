@@ -64,3 +64,6 @@ http://shiratori.cdl.im.dendai.ac.jp:50000/?text=曲は素晴らしい、何回�
 
 ## 参考文献
 [Hugging Face + WRIMEデータセットで、8クラスの感情分類](https://qiita.com/izaki_shin/items/2b4573ee7fbea5ec8ed6)
+
+## お知らせ
+- 2024/07/09 19時半頃~22時半頃 サーバを止めていました。この時間帯に接続した人がいたらごめんなさい。
