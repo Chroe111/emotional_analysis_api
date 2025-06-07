@@ -4,7 +4,9 @@ import torch
 import numpy as np
 
 # モデルの読み込み
-model = torch.load('model.pt')
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model = torch.load('model.pt', map_location=device, weights_only=False)
+model.to(device)
 model.eval()
 
 # 使用するモデルを指定して、Tokenizerを読み込む

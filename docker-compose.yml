@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./app
+    container_name: fastapi_app
+    volumes:
+      - ./app:/app
+    expose:
+      - 8000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_proxy
+    ports:
+      - "50000:50000"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
